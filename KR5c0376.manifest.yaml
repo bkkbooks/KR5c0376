@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0376/v1
+canonical_location: https://kanripo.org/bkk/KR5c0376/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上洞神五星讚
+  identifiers:
+    alt_id:
+    - DZ0976
+  date: '2015-08-29 00:58:56.781825'
+  source:
+    repository: kanripo
+    path: KR5c0376
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0376_000.yaml, hash: 'sha256:fa66f413b7814b563be278d128b66ce8bcf489c0a9790159e64b4a2ce0ec543a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0376_000.markers.yaml, hash: 'sha256:ef08cac8ae3856bf4cc57b214b74490783c637ebd20e8a0d9a8553f9db21081f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0376_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2229
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:89f262fcdd34cc2555aad7c62d09dffe2db10baecb9a318d00ec985e27f7b087
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
